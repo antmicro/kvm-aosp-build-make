@@ -79,3 +79,14 @@ WPA_SUPPLICANT_VERSION      := VER_0_8_X
 WIFI_DRIVER_FW_PATH_PARAM   := "/dev/null"
 WIFI_DRIVER_FW_PATH_STA     := "/dev/null"
 WIFI_DRIVER_FW_PATH_AP      := "/dev/null"
+
+BOARD_GPU_DRIVERS := virgl
+
+BUILD_EMULATOR_OPENGL := false
+BUILD_EMULATOR_OPENGL_DRIVER := false
+USE_OPENGL_RENDERER := true
+BOARD_USES_DRM_HWCOMPOSER := true
+TARGET_HARDWARE_3D := true
+
+# Hardware composer configuration
+TARGET_USES_HWC2 := true
