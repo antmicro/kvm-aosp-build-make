@@ -19,7 +19,7 @@
 #
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/handheld_vendor.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_vendor.mk)
+#$(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_vendor.mk)
 
 # TODO(b/123495142): these files should be clean up
 PRODUCT_ARTIFACT_PATH_REQUIREMENT_WHITELIST := \
